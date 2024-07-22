@@ -10,6 +10,6 @@ spec:
     matchLabels:
       type: appdeploy
   parameters:
-    namespace: saba
+    namespace: app-deploy
     image: nginx
     host: applicationtest.nginx.com
