@@ -1,0 +1,15 @@
+apiVersion: test.com/v1alpha1
+kind: AppClaim
+metadata:
+  name: application-deploy-test
+  labels:
+    app-owner: Saba
+spec:
+  id: nginx-test
+  compositionSelector:
+    matchLabels:
+      type: appdeploy
+  parameters:
+    namespace: saba
+    image: nginx
+    host: applicationtest.nginx.com
