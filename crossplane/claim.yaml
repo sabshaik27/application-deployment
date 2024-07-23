@@ -10,6 +10,6 @@ spec:
     matchLabels:
       type: appdeploy
   parameters:
-    namespace: app-deploy
+    namespace: app-deploy1
     image: httpd
     host: applicationtest.apache.com
