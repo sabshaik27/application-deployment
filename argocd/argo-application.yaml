@@ -7,12 +7,12 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/sabshaik27/app-deployment.git
+    repoURL: https://github.com/sabshaik27/application-deployment.git
     targetRevision: HEAD
     path: crossplane
   destination: 
     server: https://kubernetes.default.svc
-    namespace: myapp
+    namespace: app-deploy
 
   syncPolicy:
     syncOptions:
