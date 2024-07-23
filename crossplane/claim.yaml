@@ -5,11 +5,11 @@ metadata:
   labels:
     app-owner: Saba
 spec:
-  id: nginx-test
+  id: apache-test
   compositionSelector:
     matchLabels:
       type: appdeploy
   parameters:
-    namespace: automation
-    image: nginx
-    host: applicationtest.nginx1.com
+    namespace:  test-automation
+    image: httpd
+    host: applicationtest.apache12.com
