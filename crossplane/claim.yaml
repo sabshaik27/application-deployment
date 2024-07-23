@@ -10,6 +10,6 @@ spec:
     matchLabels:
       type: appdeploy
   parameters:
-    namespace: app-deploy1
+    namespace: automation
     image: nginx
     host: applicationtest.nginx.com
