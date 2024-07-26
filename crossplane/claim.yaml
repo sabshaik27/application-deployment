@@ -10,6 +10,6 @@ spec:
     matchLabels:
       type: appdeploy
   parameters:
-    namespace:  test-automation
+    namespace:  at
     image: httpd
     host: applicationtest.apache12.com
